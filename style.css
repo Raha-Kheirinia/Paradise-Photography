@@ -1,0 +1,119 @@
+body {  
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: auto;
+    width: 1000px;
+    background: url("imgs/web1.jpg") no-repeat;
+    background-size: 100%;
+    background-attachment: fixed; 
+    font-family: "Lucida Sans Unicode", "Lucia Grande", sans-serif;
+}
+
+header{
+    background: #00003D;
+    width: 100%;
+    height: 120px;
+    font-size: 25px;
+}
+
+#header_tb {
+    width: 100%;
+}
+
+td.td_img {
+    text-align: right;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#header_img {
+    display: inline-table;
+    height: 90px;
+    vertical-align: middle;
+}
+
+nav {
+    background-color: #00003D;
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+nav li {
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+p {
+    font-size: larger;
+}
+  
+#cadr, aside{         /* pour changment de ligne de menu */
+     background-color:#CEE3F6;
+ }
+ 
+#cadr a, p{
+     color:black;
+} 
+ 
+h1,nav a {
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+aside {
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#join {
+    border:2px solid black;
+    margin:15px;
+    padding:20px;
+    width:37%;
+}
+#imgnsjoindre{
+    position:absolute;
+    top:33%;
+    right:20%;
+}
+
+div.center  {
+    text-align: center;
+}
+
+div.center img {
+    position: relative;
+    max-width: 600px;
+    
+}
+
+#auteur,#auteur li, ul > li, h3 {
+    list-style: url("imgs/size1.jpg");
+    font-weight:200; 
+    margin:10px;  
+}
+p, h2 {
+    font-weight: 100;
+}
+
+#diro {
+    width: 120px;
+    height: auto;
+}
+
+#footer {
+    background-color: #CEE3F6;
+    width: inherit;
+    height: auto;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 50px;
+}
